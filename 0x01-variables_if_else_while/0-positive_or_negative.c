@@ -4,8 +4,11 @@
 /* more headers goes there */
 /* betty style doc for function main goes there */
 int main(void)
-/** random numbers
-* return 0
+
+/*
+* main - Prints random numbers
+* Description: Prints random numbers with characteristics
+* Return: 0
 */
 {
 int n;
