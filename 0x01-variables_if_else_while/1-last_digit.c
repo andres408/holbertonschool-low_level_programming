@@ -1,11 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include<stdio.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/**
+* main - Find the last digit of the number stored in the variable
+*
+* Return: Always 0 (Succes)
+*/
 int main(void)
-/*  Main: Print last digit of random number */
 {
 int n, LastDigit;
 
