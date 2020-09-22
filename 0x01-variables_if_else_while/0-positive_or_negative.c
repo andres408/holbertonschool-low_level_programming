@@ -1,15 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-/* betty style doc for function main goes there */
-int main(void)
-
-/*
-* main - Prints random numbers
-* Description: Prints random numbers with characteristics
-* Return: 0
+/**
+* main - Clasify random numbers
+*
+* Return: Always 0 (Success)
 */
+int main(void)
 {
 int n;
 srand(time(0));
