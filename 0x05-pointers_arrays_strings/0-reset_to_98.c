@@ -1,6 +1,6 @@
 /**
  * reset_to_98 - Pointer to change number
- *
+ * @n: string pointer
  */
 void reset_to_98(int *n)
 {
