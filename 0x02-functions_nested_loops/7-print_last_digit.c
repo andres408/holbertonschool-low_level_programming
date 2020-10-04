@@ -2,10 +2,12 @@
 /**
  * print_last_digit - display the last number
  * Return: 0 always success
+ * @c: display last digit
  */
 int print_last_digit(int c)
 {
 	int l = c % 10;
+
 	if (l < 0)
 	{
 		_putchar (-l + '0');
@@ -14,6 +16,6 @@ int print_last_digit(int c)
 	else
 	{
 		_putchar (l + '0');
-	return (l);
+		return (l);
 	}
 }
